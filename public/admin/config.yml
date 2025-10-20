@@ -1,0 +1,25 @@
+backend:
+  name: github
+  repo: aspacerire-debug/catalogo-3d-plantilla
+  branch: main
+  base_url: https://tu-oauth.vercel.app
+  auth_endpoint: /api/auth
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "catalogo"
+    label: "Catálogo 3D"
+    files:
+      - file: "public/data/catalog.json"
+        label: "Productos"
+        name: "productos"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Categoría", name: "category", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "text" }
+          - { label: "Imagen", name: "image", widget: "image", required: false }
+          - { label: "Modelo 3D (.glb/.gltf URL)", name: "modelUrl", widget: "string", required: false }
+          - { label: "Enlace", name: "ctaUrl", widget: "string", required: false }
+          - { label: "Texto del botón", name: "ctaText", widget: "string", default: "Ver más" }
