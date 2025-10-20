@@ -1,11 +1,17 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Content Manager</title>
-  </head>
-  <body>
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <title>Content Manager</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <!-- Carga Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2/dist/netlify-cms.js"></script>
+  <!-- Si quieres forzar el uso de tu config.yml explícitamente, añade: -->
+  <script>
+    window.CMS_MANUAL_INIT = true;
+    window.CMS.init({ config: { load_config_file: true }});
+  </script>
+</body>
 </html>
