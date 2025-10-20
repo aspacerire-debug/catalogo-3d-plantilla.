@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "title": "Producto A",
+      "category": "Línea Fitness",
+      "description": "Descripción corta del producto A con detalles y beneficios.",
+      "image": "/uploads/ejemplo1.png",
+      "modelUrl": "",
+      "ctaUrl": "https://ejemplo.com",
+      "ctaText": "Ver más"
+    }
+  ]
+}
