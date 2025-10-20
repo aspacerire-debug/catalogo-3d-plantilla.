@@ -1,0 +1,46 @@
+{
+  "brand": "Mi Cat\u00e1logo 3D",
+  "theme": {
+    "background": "#0f172a",
+    "text": "#e2e8f0",
+    "accent": "#22d3ee"
+  },
+  "pages": [
+    {
+      "title": "Producto A",
+      "subtitle": "L\u00ednea Fitness",
+      "description": "Descripci\u00f3n del producto A con detalles y beneficios.",
+      "link": "https://ejemplo.com/producto-a",
+      "coverType": "model",
+      "modelUrl": "",
+      "imageUrl": "",
+      "videoUrl": "",
+      "pageColor": "#0b1220",
+      "textColor": "#e2e8f0"
+    },
+    {
+      "title": "Producto B",
+      "subtitle": "L\u00ednea Pro",
+      "description": "Descripci\u00f3n del producto B. Puedes poner un hiperv\u00ednculo.",
+      "link": "https://ejemplo.com/producto-b",
+      "coverType": "image",
+      "imageUrl": "https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?q=80&w=1470&auto=format&fit=crop",
+      "videoUrl": "",
+      "modelUrl": "",
+      "pageColor": "#0b1325",
+      "textColor": "#ffffff"
+    },
+    {
+      "title": "Producto C",
+      "subtitle": "Edici\u00f3n 2025",
+      "description": "Ejemplo con video incrustado en la p\u00e1gina.",
+      "link": "https://ejemplo.com/producto-c",
+      "coverType": "video",
+      "videoUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      "imageUrl": "",
+      "modelUrl": "",
+      "pageColor": "#111827",
+      "textColor": "#e5e7eb"
+    }
+  ]
+}
